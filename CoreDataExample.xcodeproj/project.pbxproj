@@ -15,6 +15,8 @@
 		84DD73491A8DA2C600CA829A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD73481A8DA2C600CA829A /* Images.xcassets */; };
 		84DD734C1A8DA2C600CA829A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DD734A1A8DA2C600CA829A /* LaunchScreen.xib */; };
 		84DD73581A8DA2C600CA829A /* CoreDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD73571A8DA2C600CA829A /* CoreDataExampleTests.m */; };
+		84DD73631A8DA70500CA829A /* Alien.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD73621A8DA70500CA829A /* Alien.m */; };
+		84DD73661A8DA70600CA829A /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD73651A8DA70600CA829A /* Human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		84DD73511A8DA2C600CA829A /* CoreDataExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DD73561A8DA2C600CA829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DD73571A8DA2C600CA829A /* CoreDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExampleTests.m; sourceTree = "<group>"; };
+		84DD73611A8DA70500CA829A /* Alien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien.h; sourceTree = "<group>"; };
+		84DD73621A8DA70500CA829A /* Alien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien.m; sourceTree = "<group>"; };
+		84DD73641A8DA70600CA829A /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		84DD73651A8DA70600CA829A /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				84DD73481A8DA2C600CA829A /* Images.xcassets */,
 				84DD734A1A8DA2C600CA829A /* LaunchScreen.xib */,
 				84DD733F1A8DA2C600CA829A /* CoreDataExample.xcdatamodeld */,
+				84DD73641A8DA70600CA829A /* Human.h */,
+				84DD73651A8DA70600CA829A /* Human.m */,
+				84DD73611A8DA70500CA829A /* Alien.h */,
+				84DD73621A8DA70500CA829A /* Alien.m */,
 				84DD73381A8DA2C600CA829A /* Supporting Files */,
 			);
 			path = CoreDataExample;
@@ -222,8 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DD73631A8DA70500CA829A /* Alien.m in Sources */,
 				84DD733E1A8DA2C600CA829A /* AppDelegate.m in Sources */,
 				84DD733B1A8DA2C600CA829A /* main.m in Sources */,
+				84DD73661A8DA70600CA829A /* Human.m in Sources */,
 				84DD73441A8DA2C600CA829A /* ViewController.m in Sources */,
 				84DD73411A8DA2C600CA829A /* CoreDataExample.xcdatamodeld in Sources */,
 			);
